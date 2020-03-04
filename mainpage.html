@@ -3,40 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>my project</title>
+    <link rel= "stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
     <div class="header">
-      <div class="header"><h1>My Project Logo</h1></div>
-      <div class="Welcome"><h2>Welcome</h2></div>
-      <div class="log-in-button">
-        <form action='login_page.php'></form>
-          <button type="button" onClick="location.href='log-in.html'"></button>
-          <input type='button' value='Log In'>
-      </div>
-
-      <div class="sign-up-button">
-        <form action='login_page.php'>
-          <input type='button' value='Sign Up'/>
+      <div class=""><h1>My Project Logo</h1></div>
+      <div class="searchbar">
+        <form class="searchbar" action="index.html" method="post">
+          <select class="input-select">
+            <option value="0">All Categories</option>
+            <option value="1">DEALS</option>
+            <option value="1">COUPONS</option>
+            <option value="1">JOBS</option>
+            <option value="1">SERVICE</option>
+          </select>
+          <input class="input" placeholder="Search here">
+          <button type="button">Search</button>
         </form>
       </div>
+
+      </div>
+        <div class="header-right-items">
+          <div class="log-in-button">
+            <form action="log-in.html">
+              <input type="submit" name="log in" value="Log In" onclick="location.href='log-in.html';">
+              <input type="submit" name="sign in" value="Sign In">
+            </form>
+
+        </div>
+
 
     </div>
 
     <div class="nav">
-      <div class="nav-item">DEALS</div>
-      <div class="nav-item">COUPONS</div>
-      <div class="nav-item">JOB</div>
-      <div class="nav-item">SERVICE</div>
-      <div class="wrap">
-      <div class="search">
-      <input type="text" class="searchTerm" placeholder="What are you looking for?">
-      <button type="submit" class="searchButton">
-        <i class="fa fa-search"></i>
-        </button>
-      </div>
-</div>
+      <ul>
+        <li><a href="#">DEALS</a></li>
+        <li><a href="#">COUPONS</a></li>
+        <li><a href="#">JOBS</a></li>
+        <li><a href="#">SERVICE</a></li>
+      </ul>
     </div>
 
+  <aside>
     <div class="side">
 
       <div class="side-item"><h3>POPULAR DEALS</h3></div>
@@ -58,12 +66,13 @@
         <img src="images/ebay.png" alt="ebay_logo" width="100" height="30">
       </div>
     </div>
-
+  </aside>
+  <section>
     <div class="contents">
       <div class="items">
         <img src="images/200x200.png" alt="200x200_logo" width="200" height="200">
         <div class="company">
-          amazon
+          <h3>amazon</h3>
         </div>
         <div class="item-title">
           Maleficent DVD
@@ -121,7 +130,8 @@
         </div>
       </div>
     </div>
-
+  </section>
+  <footer>
     <div class="footer">
       <dl class="footer-title">
         <dt>Follow Us</dt>
@@ -156,7 +166,7 @@
         Copyright 2002. myproject, LLC. All Rights Reserved.
       </div>
     </div>
-
+  </footer>
 
   </body>
 </html>
