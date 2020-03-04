@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body {
+  padding: 30px 40px 0;
+}
+.login ul{
+  list-style: none;
+}
+.login .top {
+  text-align: center
+}
+.login .middle {
+  position: relative;
+  width: 390px;
+  margin: 0 auto;
+}
+.login .middle li {
+  padding: 0 0 9px;
+}
+.login .middle li label{
+  font-size: 13px;
+  color: #464646;
+  font-family: auto;
+  font-weight: bold;
+  display: inline-block; width: 63px
+}
+.login .middle li input[type="text"],
+.login .middle li input[type="password"]{
+  width: 144px;
+  height: 30px;
+  padding: 0;
+  border-color: #d3d3d3;
+}
+.login .middle .btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.login .middle a {
+  display: block;
+  width: 109px;
+  height: 77px;
+  background-color: #0072BC;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  line-height: 69px;
+  font-weight: bold;
+}
+.login .middle .save{
+  padding: 0 0 0 59px;
+}
+.login .middle .save label {
+    font-weight: normal;
+    width: auto;
+  }
+}
+.login .btm {
+  padding: 20px 0 0 80px;
+}
+.login .btm li {
+  padding: 0 0 11px 10px; font-size: 12px;
+  text-align: center;
+}
+.login .btm a {
+  margin: 0 0 0 10px; font-size: 12px; font-weight: bold;
+}
+.login .btm label{
+  text-align: center;
+}
