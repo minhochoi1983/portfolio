@@ -1,0 +1,38 @@
+@charset "utf-8";
+.Logo {
+  text-align: left;
+}
+
+.header{
+  width: 100% !important;
+    min-width: 943px;
+    left: auto;
+    background-color: #31393F;
+    z-index: 9999;
+    -webkit-transform: translateZ(0);
+    will-change: transform;
+    color: #d0d6da;
+    display: flex;
+    align-items: center;
+}
+
+.header-right-items{
+  text-align: right
+}
+
+.nav{
+  height: px
+  bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+  font-weight: 600;
+    color: #d0d6da;
+    text-decoration: none;
+    position: relative;
+    line-height: 64px;
+    display: block;
+    margin-left: auto;
+
+}
