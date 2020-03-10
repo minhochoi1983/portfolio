@@ -1,38 +1,108 @@
 @charset "utf-8";
-.Logo {
-  text-align: left;
+ul{
+  list-style: none;
 }
-
-.header{
-  width: 100% !important;
-    min-width: 943px;
-    left: auto;
+.logo {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Monoton', cursive;
+}
+body{
+  font-family: 'Fira Code', monospace;
+  background-color: #e4e4e4;
+}
+.header {
     background-color: #31393F;
-    z-index: 9999;
-    -webkit-transform: translateZ(0);
-    will-change: transform;
     color: #d0d6da;
     display: flex;
-    align-items: center;
+    width: auto;
+}
+.logo{
+  position: relative;
 }
 
-.header-right-items{
-  text-align: right
+.searchbar-right{
+  display: flex;
+  padding-top: 20px;
+  position: static;
+  right: 30px;
+}
+.input-select{
+  margin-right: 10px;
+}
+.search-box{
+  margin-right: 10px;
+  width: 200px;
+}
+.search-btn{
+  margin-right: 200px;
+  position: relative;
 }
 
 .nav{
-  height: px
-  bottom: 1px solid black;
+  background-color: grey;
+
+}
+.nav ul{
   display: flex;
+  justify-content: space-around;
+}
+
+.side{
+  width: 200px;
+  height: auto;
+  background-color: white;
+  float: right;
+  text-align: center;
+}
+.side-item {
+  background-color: grey;
+  height: 40px;
+  padding-top: 0;
+  margin: 0;
+}
+.popular_deal{
+  border: solid black;
+  border-width: 1px;
+
+}
+.contents ul{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px
+}
+.footer{
+  background-color: grey;
+  color: black;
+  height: 400px;
+  position:relative;
+}
+.footer .footer-contents {
+  border: 1px solid black;
+  height: 350px;
+  display: flex;
+}
+.footer .footer-contents .footer-section{
+  flex:1;
+  padding: 25px;
+  border: 1px solid black;
+}
+.footer .footer-contents .footer-section  {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
   align-items: center;
 }
-.nav-item{
-  font-weight: 600;
-    color: #d0d6da;
-    text-decoration: none;
-    position: relative;
-    line-height: 64px;
-    display: block;
-    margin-left: auto;
-
+.footer-copyright{
+  background-color: grey;
+  color: white;
+  height: 30px;
+  width: 100%;
+  align-items: left;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
 }
