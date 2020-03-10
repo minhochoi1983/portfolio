@@ -3,7 +3,7 @@
 .body{
   padding: 30px 40px 0;
 }
-  
+
 .login .top {
   text-align: center
 }
@@ -68,4 +68,38 @@
 }
 .login .btm label{
   text-align: center;
+}
+
+.footer{
+  background-color: grey;
+  color: black;
+  height: 400px;
+  position:relative;
+}
+.footer .footer-contents {
+  border: 1px solid black;
+  height: 350px;
+  display: flex;
+}
+.footer .footer-contents .footer-section{
+  flex:1;
+  padding: 25px;
+  border: 1px solid black;
+}
+.footer .footer-contents .footer-section  {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  align-items: center;
+}
+.footer-copyright{
+  background-color: grey;
+  color: white;
+  height: 30px;
+  width: 100%;
+  align-items: left;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
 }
