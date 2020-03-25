@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+html, body {
+  height: 100vh;
+}
 header {
   padding: 0 30px 0px;
   background: rgba(70,71,71,1);
@@ -232,9 +234,9 @@ body .featured-deals {
   padding: 0 4px 0 0;
 }
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
-  bottom: 0;
+  bottom: -120%;
   width: 100%;
   background-color: rgba(60,60,60,1);
   color: white;
@@ -265,14 +267,14 @@ footer-links {
 footer .footer-contents {
   display: flex;
   justify-content: space-around;
-  padding-left: 80px;
-  margin-right: 270px;
+  padding-left: 100px;
+  margin-right: 100px;
 
 }
 .footer-copyright {
   padding-left: 80px;
   padding-top: 30px;
   text-align: center;
-  margin-right: 270px;
+  margin-right: 100px;
 
 }

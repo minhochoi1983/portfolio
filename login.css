@@ -1,5 +1,6 @@
 @charset "utf-8"; lang="en"
 
+
 .body{
   padding: 30px 40px 0;
 }
@@ -71,7 +72,7 @@
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -104,8 +105,8 @@ footer-links {
 footer .footer-contents {
   display: flex;
   justify-content: space-around;
-  padding-left: 80px;
-  margin-right: 270px;
+  padding-left: 100px;
+  margin-right: 100px;
 
 }
 .footer-copyright {
@@ -113,6 +114,6 @@ footer .footer-contents {
   padding-top: 10px;
 
   text-align: center;
-  margin-right: 270px;
+  margin-right: 100px;
 
 }
